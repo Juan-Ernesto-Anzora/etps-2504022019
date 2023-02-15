@@ -27,9 +27,10 @@
                 android:id="@+id/tvTitulo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:autoText="true"
                 android:text="Datos Personales"
                 android:textAlignment="center"
-                android:textColor="#03A9F4"
+                android:textColor="#2196F3"
                 android:textSize="20sp" />
 
             <EditText
@@ -37,16 +38,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Ingrese su nombre" />
+                android:hint="Ingrese su nombre"
+                android:inputType="textPersonName" />
 
             <EditText
                 android:id="@+id/edtApellidos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Ingrese su apellido" />
+                android:hint="Ingrese sus apellidos"
+                android:inputType="textPersonName" />
 
             <TextView
                 android:id="@+id/tvGenero"
@@ -75,6 +76,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Otros" />
+
             </RadioGroup>
 
             <TextView
@@ -86,21 +88,32 @@
             <Spinner
                 android:id="@+id/spnPais"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:contextClickable="false"
+
+
+
+                android:textAlignment="center"
+                tools:listheader="Seleccione un pais" />
 
             <Button
                 android:id="@+id/btnGuardar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Guardar" />
+                android:text="Guardar"
+                android:onClick="Almacenar" />
 
             <EditText
                 android:id="@+id/editTextTextMultiLine"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="132dp"
                 android:ems="10"
                 android:gravity="start|top"
-                android:inputType="textMultiLine" />
+                android:inputType="textMultiLine"
+                android:scrollIndicators="top|right"
+                android:scrollY="@dimen/cardview_default_elevation"
+                android:scrollbarStyle="insideOverlay" />
+
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
