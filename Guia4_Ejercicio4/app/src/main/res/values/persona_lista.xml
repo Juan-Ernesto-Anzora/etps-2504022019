@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="people">
+        <item>%1$s, %2$d, %3$s</item>
+        <item>%1$s, %2$d, %3$s</item>
+        <item>%1$s, %2$d, %3$s</item>
+        <item>%1$s, %2$d, %3$s</item>
+        <item>%1$s, %2$d, %3$s</item>
+        <!-- Add more items as needed -->
+    </string-array>
+</resources>
