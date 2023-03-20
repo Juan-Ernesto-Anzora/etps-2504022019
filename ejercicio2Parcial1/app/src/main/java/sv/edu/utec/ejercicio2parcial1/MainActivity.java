@@ -11,6 +11,8 @@ public class MainActivity extends AppCompatActivity {
     EditText etPeso, etAltura;
     TextView tResultado;
 
+    EditText edt1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
         etPeso = findViewById(R.id.edtPeso);
         etAltura = findViewById(R.id.edtAltura);
         tResultado = findViewById(R.id.tvResultado);
+
+        edt1 = findViewById(R.id.edtPeso);
+        edt1 = findViewById(R.id.edtAltura);
     }
 
     public void calculoFormula(View view){
