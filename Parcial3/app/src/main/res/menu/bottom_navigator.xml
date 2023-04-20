@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_agregar"
+        android:icon="@drawable/baseline_person_add_24"
+        android:title="Agregar"
+        />
+    <item android:id="@+id/nav_buscar"
+        android:icon="@drawable/baseline_person_search_24"
+        android:title="Buscar"
+        />
+    <item android:id="@+id/nav_actu"
+        android:icon="@drawable/baseline_refresh_24"
+        android:title="Actualizar"
+        />
+    <item android:id="@+id/nav_eliminar"
+        android:icon="@drawable/baseline_person_remove_24"
+        android:title="Eliminar"
+        />
+
+</menu>
