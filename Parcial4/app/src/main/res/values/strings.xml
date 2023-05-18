@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Parcial4</string>
+    <string name="enter_name">Nombre Cliente</string>
+    <string name="add_record">Agregar Registro</string>
+    <string name="btn_update">Actualizar</string>
+    <string name="btn_delete">Borrar</string>
+    <string name="empty_list_text">No records found</string>
+    <string name="enter_lastname">Apellido</string>
+    <string name="enter_names">Nombre</string>
+    <string name="enter_address">Direccion</string>
+    <string name="enter_city">Ciudad</string>
+</resources>
